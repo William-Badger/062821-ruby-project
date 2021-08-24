@@ -13,22 +13,12 @@
   }
 }
 
-.field {
-  margin: auto;
-  padding-left: 400px;
-  padding-right: 400px;
+#poem-list {
+  width: 100px;
 }
 
-#main-page {
-  display: inline-flex;
-  float:left;
-  padding: 25px;
-}
-
-#poem-box {
-  padding-left: 25px;
-  width:1500px;
-  height: auto;
+#poem-card {
+  padding-top: 25px;
 }
 
 .App-header {
