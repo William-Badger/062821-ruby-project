@@ -1,39 +1,21 @@
 import React from 'react';
+import PoemCard from './PoemCard';
 
 const MainContainer = () => {
     return (
         <div id="main-page">
-            <div class="ui vertical menu">
+            <div class="ui left fixed vertical menu">
   <div class="item">
-    <div class="ui input"><input type="text" placeholder="Search..."></input></div>
-  </div>
-  <div class="item">
-    <div class="menu">
-      <a class="item">Poem Name</a>
-      <a class="item">Poem Name</a>
-      <a class="item">Poem Name</a>
-      <a class="item">Poem Name</a>
-      <a class="item">Poem Name</a>
-      <a class="item">Poem Name</a>
-      <a class="item">Poem Name</a>
-      <a class="item">Poem Name</a>
-      <a class="item">Poem Name</a>
-      <a class="item">Poem Name</a>
-      <a class="item">Poem Name</a>
-      <a class="item">Poem Name</a>
-      <a class="item">Poem Name</a>
-      <a class="item">Poem Name</a>
-      <a class="item">Poem Name</a>
-      <a class="item">Poem Name</a>
-      <a class="item">Poem Name</a>
+  <div class="ui transparent icon input">
+      <input type="text" placeholder="Search Poems..."/>
+      <i class="search icon"></i>
     </div>
   </div>
+  <a class="item">Poem Name</a>
+  <a class="item">Poem Name</a>
+  <a class="item">Poem Name</a>
 </div>
-<div id="poem-box" class="twelve wide stretched column">
-    <div class="ui segment">
-      This is a card to hold poem information
-    </div>
-  </div>
+<PoemCard />
         </div>
     );
 }
